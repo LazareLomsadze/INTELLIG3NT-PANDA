@@ -13,7 +13,7 @@ const Header = () => {
 
         <div className='flex flex-row items-center opacity-[0.5] md:mt-0 mt-6 justify-center'>
         {/* <img src={vector} alt="opensea" className='md:w-[36px] md:h-[22px] w-[41px] h-[27px] md:mr-6 mr-10 small:mr-7 small:w-[36px] small:h-[22px]' />         */}
-        <a href="https://opensea.io/collection/intellig3nt-panda " target='blank'><img src={opensea} alt="opensea" className='md:w-[28px] md:h-[28px] w-[38px] h-[38px] small:w-8 small:h-8' />     </a>  
+        <a href="https://opensea.io/collection/intellig3ntpanda " target='blank'><img src={opensea} alt="opensea" className='md:w-[28px] md:h-[28px] w-[38px] h-[38px] small:w-8 small:h-8' />     </a>  
        <a href='https://twitter.com/GENTPANDAS'  target='blank'>  <img src={twitter} alt="twitter" className='md:w-[28px] md:h-[28px] w-[38px] h-[38px] md:mx-6 mx-10 small:mx-7 small:w-8 small:h-8'/> </a> 
          <a href='https://www.instagram.com/g3ntpanda/ ' target='blank' > <img src={insta} alt="instagram" className='md:w-[28px] md:h-[28px] w-[38px] h-[38px] small:w-8 small:h-8'/>  </a> 
           
