@@ -1,0 +1,26 @@
+html{
+  scroll-behavior: smooth;
+}
+body {
+  
+  background: url('../src/images/Rec.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  user-select: none;
+  height: 100%;
+}
+@media (max-width:500px) {
+  body{
+  background-position: top;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1500px) {
+  body{
+    background-size: inherit;
+  }
+}
+
+img{
+  pointer-events: none;
+}

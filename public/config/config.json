@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0xdC27a211aA38DD1f45b22095506C7dDf1E127AF5",
+  "SCAN_LINK": "https://etherscan.io/token/0xdc27a211aa38dd1f45b22095506c7ddf1e127af5",
+  "NETWORK": {
+    "NAME": "Ethereum",
+    "SYMBOL": "ETH",
+    "ID": 1
+  },
+  "NFT_NAME": "INTELLIG3NT PANDA",
+  "SYMBOL": "IP",
+  "MAX_SUPPLY": 999,
+  "WEI_COST": 30000000000000,
+  "DISPLAY_COST": 0,
+  "GAS_LIMIT": 285100,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/intellig3nt-panda-1",
+  "SHOW_BACKGROUND": true
+}

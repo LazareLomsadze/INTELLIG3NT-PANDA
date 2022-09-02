@@ -1,0 +1,158 @@
+.lineara{
+  background: linear-gradient(91.84deg, #33C96F -24.46%, #9BB500 117.99%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  }
+
+.Minti{
+  background: linear-gradient(91.84deg, #33C96F -24.46%, #9BB500 117.99%);
+  }
+
+  .Minti:hover{
+    background: rgba(255, 255, 255, 0.5);
+  }
+
+
+
+  .changer::before {
+    content: "INTELLIG3NT PANDA";
+    animation: animate infinite 20s;
+}
+
+@keyframes animate {
+
+    0% {
+        content: "INTELLIG3NT PANDA";
+    }
+    
+    16% {
+      content: "New Friends";
+  }
+
+  32% {
+      content: "The New Game";
+  }
+    48%{
+      content: "The Token Shower";
+    }
+    64%{
+      content: "The Company of Trees";
+    }
+    80%{
+      content: "The Ecstatic Experience";
+    }
+    90%{
+      content: "My Chocolate Factory";
+    }
+}
+
+ 
+/* cvla */
+@media (max-width:1023px) {
+  .changer::before {
+    content: "INTELLIG3NT \A PANDA";
+    animation: animate infinite 20s;
+    white-space: pre;
+
+}
+
+@keyframes animate {
+
+    0% {
+        content: "INTELLIG3NT \A PANDA";
+    }
+    
+    16% {
+      content: "New \A Friends";
+  }
+
+  32% {
+      content: "The New \A Game";
+  }
+    48%{
+      content: "The Token \A Shower";
+    }
+    64%{
+      content: "The Company of \A Trees";
+    }
+    80%{
+      content: "The Ecstatic \A Experience";
+    }
+    90%{
+      content: "My Chocolate \A Factory";
+    }
+}
+
+}
+
+@media (max-width:380px) {
+  .changer::before {
+    content: "INTELLIG3NT \A PANDA";
+    animation: animate infinite 20s;
+    white-space: pre;
+
+}
+
+@keyframes animate {
+
+    0% {
+        content: "INTELLIG3NT \A PANDA";
+    }
+    
+    16% {
+      content: "New \A Friends";
+  }
+
+  32% {
+      content: "The New \A Game";
+  }
+    48%{
+      content: "The Token \A Shower";
+    }
+    64%{
+      content: "The Company \A of Trees";
+    }
+    80%{
+      content: "The Ecstatic \A Experience";
+    }
+    90%{
+      content: "My Chocolate \A Factory";
+    }
+}
+
+}
+
+
+.changer2::before{
+  content: "We’re \A Building a \A Community";
+    animation: animat infinite 16s;
+    white-space: pre;
+}
+
+@keyframes animat {
+
+  0% {
+      content: "We’re \A Building a \A Community";
+  }
+  
+  16% {
+    content: "We’re \A Hustlers \A \A";
+}
+
+32% {
+    content: "We’re \A Flippers \A \A";
+}
+  48%{
+    content: "We’re \A Doers \A \A";
+  }
+  64%{
+    content: "We’re \A ready to \A go ALL-IN";
+  }
+  80%{
+    content: "We’re \A Building a \A Brand";
+  }
+  90%{
+    content: "We’re \A Building \A Tokenomic";
+  }
+}

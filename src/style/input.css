@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: "optivenus";
+    src: url("../../public/fonts/optivenus.otf");
+  }
+
+  @font-face {
+    font-family: "termina";
+    src: url("../../public/fonts/termina.ttf");
+  }
+
+@layer utilities {
+  
+  .scrollbar::-webkit-scrollbar {
+    width: 28px;
+  }
+  .scrollbar::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  .scrollbar::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+  }
+  .scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
+  }
+  @media (max-width:768px) {
+    .scrollbar::-webkit-scrollbar {
+      width: 0px;
+      height: 0px;
+     
+    }
+  }
+    
+  }
+
+
+  @layer utilities {
+    
+    .scrollbarr::-webkit-scrollbar {
+      width: 17px;
+    }
+    .scrollbarr::-webkit-scrollbar-track {
+      background-color: transparent;
+    }
+    .scrollbarr::-webkit-scrollbar-thumb {
+      background-color: #d6dee1;
+      border-radius: 20px;
+      border: 6px solid transparent;
+      background-clip: content-box;
+    }
+    .scrollbarr::-webkit-scrollbar-thumb:hover {
+      background-color: #a8bbbf;
+    }
+    @media (max-width:768px) {
+      .scrollbarr::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+       
+      }
+    }
+      
+    }
+    #minting-dapp {
+      @apply flex flex-col ;
+      @apply mt-14 medium:mt-0 mx-auto mb-5 medium:mb-0;
+      @apply md:w-[628px] w-full;
+      @apply 0xl:max-w-md medium:max-w-none;
+      @apply bg-black;
+      @apply rounded-roundd medium:rounded-none ;
+      @apply py-4 md:px-14 px-5;
+      box-shadow: 0px 0px 25px rgb(255 255 255 / 15%);
+      @apply font-termina;
+    }    
+
+  
+
+  
+      .supply {
+        @apply flex flex-col items-center;
+        @apply px-6 py-3;
+        @apply font-termina;
+      }
+      .label {
+          @apply block;
+          @apply md:text-base text-xs ;
+          @apply 0xl:mt-1;
+          background: linear-gradient(91.84deg, #33C96F -24.46%, #9BB500 117.99%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          @apply font-semibold;
+        }
+        
+        
+        
+      
+    
