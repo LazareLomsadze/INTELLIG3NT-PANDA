@@ -21,14 +21,14 @@ const Team = () => {
         <div className="flex lg:flex-row lg:flex-wrap lg:justify-between 1xl:flex-nowrap 1xl:overflow-x-scroll 1xl:overflow-y-hidden 1xl:w-full 1xl:h-full 1xl:scrollbar ">
           <OneTeam
             work="Founder, Vision Officer"
-            Fullname="Zaur Tsakadze"
+            Fullname="Michael Jordan"
             image={p1}
             imgwidth="1xl:w-[336px] 1xl:h-[251px] 0xl:w-[249px] 0xl:h-[186px] small:w-[214px] small:h-[174px]"
             logo={linkdin}
             logo2={twiter}
             logowidth="w-[24px] h-[24px]"
-            link1="https://www.linkedin.com/in/tsaak"
-            link2="https://twitter.com/zakotsakadze"
+            link1="javascript:void(0)"
+            link2="javascript:void(0)"
             logos= {true}
             Target="blank"
           />
@@ -40,7 +40,7 @@ const Team = () => {
             logo={instagram}
             logo2={twiter}
             logowidth="w-[28px] h-[28px]"
-            link1="https://www.instagram.com/tgartstation"
+            link1="javascript:void(0)"
             link2="javascript:void(0)"
             logos= {true}
             Target=""
